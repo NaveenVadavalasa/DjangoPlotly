@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>test</title>
+</head>
+<body>
+  <div>
+  {% autoescape off %}
+  {{ plot_div }}
+  {% endautoescape %}
+
+  {%load plotly_dash%}
+</div>
+
+</body>
+</html>
